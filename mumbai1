@@ -1,2 +1,12 @@
 dil e nadan tujhe hua kya hai
 aakhir is marz ki dawa kya hai
+# Taking input from the user
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+num3 = int(input("Enter third number: "))
+
+# Adding the numbers
+sum = num1 + num2 + num3
+
+# Displaying the result
+print("The sum of the three numbers is:", sum)
