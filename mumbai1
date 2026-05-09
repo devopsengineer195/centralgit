@@ -11,3 +11,34 @@ sum = num1 + num2 + num3
 print("The sum of the three numbers is:", sum)
 
 #this is the python code written by viksh rajput from cavisson Noida
+#
+#code for checking even and odd number
+# Take input from the user
+num = int(input("Enter a number: "))
+
+# Check if the number is even or odd
+if num % 2 == 0:
+    print("The number is Even")
+else:
+    print("The number is Odd")
+
+
+
+
+#Number Guessing Game
+#import random
+
+# Generate a random number between 1 and 10
+secret_number = random.randint(1, 10)
+
+print("Guess a number between 1 and 10")
+
+# Take user input
+guess = int(input("Enter your guess: "))
+
+# Check the guess
+if guess == secret_number:
+    print("🎉 Congratulations! You guessed it right.")
+else:
+    print("❌ Wrong guess!")
+    print("The correct number was:", secret_number)
